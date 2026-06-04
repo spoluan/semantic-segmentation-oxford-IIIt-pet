@@ -1,5 +1,8 @@
 # Semantic Segmentation on Oxford-IIIT Pet
 
+**Author:** Sevendi Eldrige Rifki Poluan  
+**Date:** May 2023
+
 This project performs pixel-wise semantic segmentation for pet images using a U-Net style architecture with a VGG16 encoder backbone. The model is trained on the Oxford-IIIT Pet dataset to classify each pixel into one of three classes: pet, border, and background.
 
 ## Project Overview
@@ -52,11 +55,6 @@ Loss and accuracy for training and validation across epochs.
 Qualitative examples: input image, predicted mask, and target mask.
 
 ![Prediction examples grid](Image/notebook_figure_04_cell_30_output_2.png)
-
-## Notes
-
-- This update reorganizes documentation and explanations only.
-- Model code, training code, and notebook code cells are unchanged.
 
 ## References
 
